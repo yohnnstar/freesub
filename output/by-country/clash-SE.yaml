@@ -9,17 +9,17 @@ proxies:
   port: 8443
   udp: true
   type: vless
-  uuid: dca76b88-b038-e82b-45e1-1d76b476d7ca
+  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
   tls: true
   reality-opts:
     public-key: tl7xSwczBM--oN16cxdLnAD8GMf8tA0f-FXE9ilCCjA
   servername: download.intel.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   network: grpc
   grpc-opts:
     grpc-service-name: TunService
 - name: 🇸🇪 瑞典 (Sweden) 02 - xiaohe
-  server: 193.42.39.10
+  server: 79.141.174.147
   port: 33743
   udp: true
   type: vless
@@ -33,6 +33,18 @@ proxies:
   grpc-opts:
     grpc-service-name: TunService
 - name: 🇸🇪 瑞典 (Sweden) 03 - xiaohe
+  server: 143.246.193.215
+  port: 443
+  udp: true
+  type: vless
+  uuid: 77da6e30-ad4e-11f1-94d5-525400d1d4f7
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: wSjV1yR_rhDUdoNbM9zIXNGLASLp9RorComnyoayo2c
+  servername: www.blocket.se
+  client-fingerprint: randomized
+- name: 🇸🇪 瑞典 (Sweden) 04 - xiaohe
   server: 91.193.17.156
   port: 9458
   udp: true
@@ -46,18 +58,6 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: TunService
-- name: 🇸🇪 瑞典 (Sweden) 04 - xiaohe
-  server: 143.246.193.215
-  port: 443
-  udp: true
-  type: vless
-  uuid: 77da6e30-ad4e-11f1-94d5-525400d1d4f7
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: wSjV1yR_rhDUdoNbM9zIXNGLASLp9RorComnyoayo2c
-  servername: www.blocket.se
-  client-fingerprint: randomized
 - name: 🇸🇪 瑞典 (Sweden) 05 - xiaohe
   server: se.chick-team.ru
   port: 24443
