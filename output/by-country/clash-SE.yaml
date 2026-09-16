@@ -19,18 +19,13 @@ proxies:
   grpc-opts:
     grpc-service-name: TunService
 - name: 🇸🇪 瑞典 (Sweden) 02 - xiaohe
-  server: sw1s.crocodil.ir
-  port: 12040
+  server: se-node.rumedia-cdn.com
+  port: 25443
   udp: true
-  type: vless
-  uuid: f1aa0323-e523-4060-986e-255124f5708b
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 33hVTwP-1rQYG0F92oXJ-o1zPo4Cc8n2Uml_i9tv6XM
-    short-id: 8101b9ba16eb77c7
-  servername: play-apps-features.googleusercontent.com
-  client-fingerprint: edge
+  type: hysteria2
+  password: 29ffde49-e1d6-4dcd-a135-352920f9f0b8
+  sni: cf2.rumedia-cdn.com
+  skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
   type: select

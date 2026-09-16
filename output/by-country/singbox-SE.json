@@ -28,24 +28,15 @@
       }
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇸🇪 瑞典 (Sweden) 02 - xiaohe",
-      "server": "sw1s.crocodil.ir",
-      "server_port": 12040,
-      "uuid": "f1aa0323-e523-4060-986e-255124f5708b",
-      "flow": "xtls-rprx-vision",
+      "server": "se-node.rumedia-cdn.com",
+      "server_port": 25443,
+      "password": "29ffde49-e1d6-4dcd-a135-352920f9f0b8",
       "tls": {
         "enabled": true,
-        "server_name": "play-apps-features.googleusercontent.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "33hVTwP-1rQYG0F92oXJ-o1zPo4Cc8n2Uml_i9tv6XM",
-          "short_id": "8101b9ba16eb77c7"
-        }
+        "server_name": "cf2.rumedia-cdn.com",
+        "insecure": false
       }
     },
     {
