@@ -5,9 +5,9 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe",
-      "server": "64.225.110.247",
-      "server_port": 2083,
+      "tag": "🇸🇦 沙特 (Saudi Arabia) 01 - xiaohe",
+      "server": "95.85.89.70",
+      "server_port": 81,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "tls": {
         "enabled": true,
@@ -16,7 +16,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/acg/buy/ajax",
+        "path": "/trade?ed=2560fp=chrome",
         "headers": {
           "Host": "cdn8848.776676.xyz"
         }
@@ -27,14 +27,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe"
+        "🇸🇦 沙特 (Saudi Arabia) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe"
+        "🇸🇦 沙特 (Saudi Arabia) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
