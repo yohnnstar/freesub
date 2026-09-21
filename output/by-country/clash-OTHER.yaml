@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 104.21.13.204
+  server: 104.16.72.2
   port: 443
   udp: true
   type: trojan
@@ -27,7 +27,7 @@ proxies:
   ws-opts:
     path: /assignment
 - name: 🌐 其他地区 (Other) 03 - xiaohe
-  server: 104.16.72.2
+  server: 172.64.150.28
   port: 443
   udp: true
   type: trojan
