@@ -53,7 +53,31 @@
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
       "transport": {
         "type": "ws",
-        "path": "/platform115"
+        "path": "/platform115",
+        "headers": {
+          "Host": "platform115.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇱 以色列 (Israel) 04 - xiaohe",
+      "server": "185.95.231.156",
+      "server_port": 443,
+      "uuid": "1f8cf47a-b66a-4916-979f-26edfcf44eea",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To",
+          "short_id": "a3a578ab"
+        }
       }
     },
     {
@@ -63,7 +87,8 @@
         "auto",
         "🇮🇱 以色列 (Israel) 01 - xiaohe",
         "🇮🇱 以色列 (Israel) 02 - xiaohe",
-        "🇮🇱 以色列 (Israel) 03 - xiaohe"
+        "🇮🇱 以色列 (Israel) 03 - xiaohe",
+        "🇮🇱 以色列 (Israel) 04 - xiaohe"
       ]
     },
     {
@@ -72,7 +97,8 @@
       "outbounds": [
         "🇮🇱 以色列 (Israel) 01 - xiaohe",
         "🇮🇱 以色列 (Israel) 02 - xiaohe",
-        "🇮🇱 以色列 (Israel) 03 - xiaohe"
+        "🇮🇱 以色列 (Israel) 03 - xiaohe",
+        "🇮🇱 以色列 (Israel) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
