@@ -13,18 +13,13 @@ proxies:
   sni: css.rbxcdn.com
   skip-cert-verify: true
 - name: 🇹🇼 中国台湾 (Taiwan) 02 - xiaohe
-  server: 35.221.158.209
-  port: 32981
+  server: 103.115.109.49
+  port: 443
   udp: true
-  type: vless
-  uuid: 41b96ee9-ee5e-455f-9753-187a9dead97a
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JSn0GPz1WOSTUDBxN_XYnhgb2Jpjc2LpfBTzX1j3V2E
-    short-id: 70f4b7a4c40636
-  servername: www.sony.com
-  client-fingerprint: safari
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https://t.me/oneclickvpnkeys
+  skip-cert-verify: true
 - name: 🇹🇼 中国台湾 (Taiwan) 03 - xiaohe
   server: 35.194.157.16
   port: 43450

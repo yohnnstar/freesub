@@ -26,6 +26,27 @@
     {
       "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 02 - xiaohe",
+      "server": "179.254.109.54",
+      "server_port": 443,
+      "uuid": "d0f0a880-0df1-0003-bdf1-5669fb9483ce",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cosw.ggisopi.su",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SB1uC0OEveYjSiS_Nuw9Ld-uVVXWqi794OGnldthY3I",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 03 - xiaohe",
       "server": "185.79.138.71",
       "server_port": 448,
       "uuid": "0b0915d7-6800-4580-a44b-77d84f105e6a",
@@ -40,27 +61,6 @@
           "enabled": true,
           "public_key": "CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8",
           "short_id": "cd21e552537c7c0b"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 03 - xiaohe",
-      "server": "est1313.ggisopi.su",
-      "server_port": 443,
-      "uuid": "d0f0a880-0df1-48c9-bdf1-5669fb9483ce",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "est1313.ggisopi.su",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "SB1uC0OEveYjSiS_Nuw9Ld-uVVXWqi794OGnldthY3I",
-          "short_id": ""
         }
       }
     },
