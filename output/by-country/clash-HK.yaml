@@ -12,36 +12,36 @@ proxies:
   cipher: aes-256-gcm
   password: bdb313adf74c2ede
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - xiaohe
-  server: 47.240.80.220
-  port: 2052
-  udp: true
-  type: trojan
-  password: tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz
-  sni: 47.240.80.220
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 03 - xiaohe
-  server: 202.146.222.174
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/wangcai2🇨🇳
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
-  server: b9bccf5a-tmeqo0-0-1jcwu.hk3.hyhuawei.com
-  port: 443
-  udp: true
-  type: hysteria2
-  password: f93486ce-cc84-11ed-9e98-f23c913c8d2b
-  sni: b9bccf5a-tmeqo0-0-1jcwu.hk3.hyhuawei.com
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - xiaohe
   server: 202.146.222.89
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: t.me
+  sni: https%253a%252f%252ft.me%252fclashv8%25f0%259f%2587%25a8%25f0%259f%2587%25b3
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 03 - xiaohe
+  server: 202.146.222.29
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: httpst.mewangcai2
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
+  server: vpn-hk-004.fastervpn.world
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: vpn-hk-004.fastervpn.world
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - xiaohe
+  server: hk01.kfc-520.com
+  port: 60001
+  udp: true
+  type: hysteria2
+  password: 5ec96249-b753-317a-b065-b67ad66b8185
+  sni: hk01.kfc-520.com
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 06 - xiaohe
   server: 194.99.79.26
@@ -57,23 +57,17 @@ proxies:
   network: ws
   ws-opts:
     path: /linkvws
+    headers:
+      Host: aksai.org
 - name: 🇭🇰 中国香港 (Hong Kong) 07 - xiaohe
-  server: 2.27.109.179
-  port: 45464
-  udp: true
-  type: trojan
-  password: XuMweB2PWs
-  sni: 2.27.109.179.sslip.io
-  skip-cert-verify: false
-- name: 🇭🇰 中国香港 (Hong Kong) 08 - xiaohe
-  server: 202.146.222.29
-  port: 443
+  server: mz.hkychina.com
+  port: 8443
   udp: true
   type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: "https://t.me/wangcai2ð\x9F\x87"
+  password: HysTeria2026!Proxy
+  sni: mz.hkychina.com
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 09 - xiaohe
+- name: 🇭🇰 中国香港 (Hong Kong) 08 - xiaohe
   server: 85.149.211.28
   port: 8443
   udp: true
@@ -88,7 +82,7 @@ proxies:
     path: /cdn/packages/runtime-core.tar.gz
     headers:
       Host: hk.152568.xyz
-- name: 🇭🇰 中国香港 (Hong Kong) 10 - xiaohe
+- name: 🇭🇰 中国香港 (Hong Kong) 09 - xiaohe
   server: 103.71.23.247
   port: 443
   udp: true
@@ -117,7 +111,6 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 07 - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 08 - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 09 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 10 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -132,6 +125,5 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 07 - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 08 - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 09 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 10 - xiaohe
 rules:
 - MATCH,PROXIES
