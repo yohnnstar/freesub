@@ -38,17 +38,13 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: chrome
 - name: 🇮🇹 意大利 (Italy) 05 - xiaohe
-  server: 57.131.38.163
-  port: 2053
+  server: us4.xiaoliyu.cyou
+  port: 18333
   udp: true
-  type: vless
-  uuid: d4b08cd6-0903-411a-9dac-45dbdf5c9712
-  tls: true
-  reality-opts:
-    public-key: Ej2H5ucT7qKegYcT8wODdlxa-cLHr7F4hDVUHzAhcnc
-    short-id: 5b8a942318178e7b
-  servername: www.apple.com
-  client-fingerprint: firefox
+  type: hysteria2
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  sni: us4.xiaoliyu.cyou
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
