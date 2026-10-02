@@ -20,14 +20,41 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: qItG8SueYQcP
 - name: 🇪🇸 西班牙 (Spain) 03 - xiaohe
-  server: xby.mangshe.xyz
-  port: 2060
+  server: 108.181.121.226
+  port: 8388
   udp: true
-  type: hysteria2
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  sni: xby.mangshe.xyz
-  skip-cert-verify: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: WSyL4XTwNsdv
 - name: 🇪🇸 西班牙 (Spain) 04 - xiaohe
+  server: 34.175.44.113
+  port: 443
+  udp: true
+  type: vless
+  uuid: 0b4b1548-c7ca-45a5-9096-6c3cc4b1c43b
+  tls: true
+  reality-opts:
+    public-key: iI9J--AfPKCXbVle3Om-WMn_g-3bO3SsVzUCNtwUkU0
+    short-id: fe85cb6a5c84e64c
+  servername: www.cloudflare.com
+  client-fingerprint: ios
+- name: 🇪🇸 西班牙 (Spain) 05 - xiaohe
+  server: mygptagent.org
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: mygptagent.org
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /linkvws
+    headers:
+      Host: mygptagent.org
+- name: 🇪🇸 西班牙 (Spain) 06 - xiaohe
   server: 193.238.154.5
   port: 443
   udp: true
@@ -40,13 +67,6 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: cdn.v1.AssetService
-- name: 🇪🇸 西班牙 (Spain) 05 - xiaohe
-  server: 108.181.121.226
-  port: 8388
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: WSyL4XTwNsdv
 proxy-groups:
 - name: PROXIES
   type: select
@@ -57,6 +77,7 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 03 - xiaohe
   - 🇪🇸 西班牙 (Spain) 04 - xiaohe
   - 🇪🇸 西班牙 (Spain) 05 - xiaohe
+  - 🇪🇸 西班牙 (Spain) 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -67,5 +88,6 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 03 - xiaohe
   - 🇪🇸 西班牙 (Spain) 04 - xiaohe
   - 🇪🇸 西班牙 (Spain) 05 - xiaohe
+  - 🇪🇸 西班牙 (Spain) 06 - xiaohe
 rules:
 - MATCH,PROXIES
