@@ -15,7 +15,7 @@ proxies:
     public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
     short-id: 9980e0609b0d3891
   servername: www.apple.com
-  client-fingerprint: random
+  client-fingerprint: firefox
 - name: 🇮🇳 印度 (India) 02 - xiaohe
   server: 152.67.8.205
   port: 80
@@ -28,12 +28,13 @@ proxies:
   ws-opts:
     path: /
 - name: 🇮🇳 印度 (India) 03 - xiaohe
-  server: 45.149.114.171
-  port: 777
+  server: 144.24.109.215
+  port: 51000
   udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: Jeoq8ujfkqZKKvACQhoqBQ1PA3uq4242
+  type: hysteria2
+  password: 06133d56-2d98-4ca5-b9d3-bbf2d65bc238
+  sni: cn.cremedelamer.com
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select

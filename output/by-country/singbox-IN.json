@@ -14,7 +14,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -36,12 +36,16 @@
       }
     },
     {
-      "type": "shadowsocks",
+      "type": "hysteria2",
       "tag": "🇮🇳 印度 (India) 03 - xiaohe",
-      "server": "45.149.114.171",
-      "server_port": 777,
-      "method": "chacha20-ietf-poly1305",
-      "password": "Jeoq8ujfkqZKKvACQhoqBQ1PA3uq4242"
+      "server": "144.24.109.215",
+      "server_port": 51000,
+      "password": "06133d56-2d98-4ca5-b9d3-bbf2d65bc238",
+      "tls": {
+        "enabled": true,
+        "server_name": "cn.cremedelamer.com",
+        "insecure": true
+      }
     },
     {
       "type": "selector",
